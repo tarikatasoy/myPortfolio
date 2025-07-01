@@ -1,30 +1,22 @@
+# 💼 Tarık Atasoy Portfolio – Next.js Edition
 
-# Tarık Atasoy Portfolio – Next.js Edition
+Bu proje, modern bir portföy sitesi oluşturmak için **Next.js 14 (App Router) + TypeScript + Tailwind CSS** teknolojileriyle geliştirilmiştir. SEO, performans ve kullanıcı deneyimi ön planda tutulmuştur.
 
-Bu repo, React tabanlı portföy projenizin **Next.js 14 (App Router) + TypeScript + Tailwind CSS** kullanılarak yeniden yapılandırılmış halidir. SEO uyumluluğu ve performans için aşağıdaki iyileştirmeler uygulanmıştır:
+## 🚀 Özellikler
 
-* **Static Rendering** – Ana sayfa `app/page.tsx`'de statik olarak sunulur.
-* **Metadata API** – `app/layout.tsx` içinde JSON-LD benzeri meta etiketleri ve OpenGraph/Twitter kartları.
-* **Internationalization (i18n)** – `next.config.mjs` içinde `tr` ve `en` dilleri.
-* **Next/Image** – Görseller için otomatik boyutlandırma ve lazy‑loading.
-* **Tailwind CSS** – `tailwind.config.mjs` ile ağacın her yerinde kullanılabilir.
-* **Lucide-react** – Hafif ve ağ gereksinimi düşük ikon seti.
-* **Core Web Vitals** – Inter fontu Google Fonts API ile otomatik self‑host (Next font optimizer).
-
-## Nasıl Çalıştırılır?
-
-```bash
-pnpm install # veya npm i
-pnpm dev     # localhost:3000
-pnpm build   # statik veya edge dağıtım için prod build
-```
-
-> **Not:** `public/avatar.gif` yerine gerçek GIF dosyanızı eklemeyi unutmayın.
-
-## Dağıtım
-
-`next build && next start` komutu ile herhangi bir Node.js barındırma üzerinde çalışır. Vercel, Netlify Edge Functions veya AWS Lambda@Edge üzerinde de anında dağıtabilirsiniz.
+- ⚡ **Static Rendering**: Ana sayfa `app/page.tsx` üzerinden statik olarak sunulur.
+- 🧠 **Metadata API**: SEO için `app/layout.tsx` içinde yapılandırılmış JSON-LD, OpenGraph ve Twitter metaları.
+- 🌍 **i18n Desteği**: `next.config.mjs` üzerinden `tr` ve `en` dilleri tanımlıdır.
+- 🖼️ **Next/Image**: Otomatik boyutlandırma ve lazy-loading ile optimize görsel yönetimi.
+- 🎨 **Tailwind CSS**: `tailwind.config.mjs` ile modern, responsive tasarım.
+- 🔔 **Lucide-react**: Hafif ve sade ikon seti.
+- 📈 **Core Web Vitals**: Google Fonts yerine self-host edilen Inter font ile yüksek performans.
 
 ---
 
-İyi kodlamalar! 🚀
+## ⚙️ Kurulum ve Çalıştırma
+
+```bash
+pnpm install     # veya npm install
+pnpm dev         # http://localhost:3000 üzerinden geliştirici sunucusu
+pnpm build       # production için derleme
