@@ -1,0 +1,22 @@
+# Next.js build klasörü
+.next/
+
+# Node modülleri
+node_modules/
+
+# Ortam değişkenleri
+.env
+.env.local
+.env.*.local
+
+# IDE ayarları
+.vscode/
+*.log
+
+# Derleme ve önbellek dosyaları
+dist/
+out/
+.cache/
+
+# Zip arşivleri
+*.zip
