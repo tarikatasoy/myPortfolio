@@ -8,7 +8,7 @@ export function Hero() {
   return (
     <section
       id="home"
-      className="relative flex min-h-screen items-center justify-center overflow-hidden"
+      className="relative flex min-h-screen items-center justify-center overflow-hidden pt-16"
     >
       <div className="absolute inset-0 bg-gradient-to-br from-gray-950 via-gray-900 to-gray-800">
         <div className="absolute top-1/4 left-1/4 h-72 w-72 rounded-full bg-cyan-500/30 blur-3xl animate-pulse" />

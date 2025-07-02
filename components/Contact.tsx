@@ -20,7 +20,7 @@ export function Contact() {
         <div className="mb-12 rounded-3xl bg-gray-900/80 p-8 backdrop-blur-sm shadow-lg">
           <div className="flex flex-col items-center justify-center gap-6 sm:flex-row">
             <a
-              href="mailto:hello@tarikcn12@gmail.com"
+              href="mailto:tarikcn12@gmail.com"
               className="group flex items-center justify-center gap-3 rounded-2xl bg-gradient-to-r from-cyan-500 to-fuchsia-500 px-8 py-4 font-semibold text-white shadow-lg transition-all duration-300 hover:-translate-y-1 hover:opacity-90"
             >
               <Mail size={20} />
