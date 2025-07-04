@@ -6,11 +6,12 @@ import {
   Globe,
   Database,
   Smartphone,
-  Terminal,
+  Repeat,
   Rocket,
   Award,
   Coffee,
-  Candy
+  Candy,
+  Monitor
 } from "lucide-react";
 
 export const NAV_LINKS = [
@@ -27,7 +28,7 @@ export const SKILLS = [
     color: "from-blue-500 to-cyan-500",
     bgColor: "from-blue-50 to-cyan-50 dark:from-blue-900/20 dark:to-cyan-900/20",
     description: "Modern web uygulamaları ve etkileşimli kullanıcı arayüzleri geliştirme",
-    technologies: ["React", "Next.js", "TypeScript", "Vue.js", "Vite"]
+    technologies: ["React", "Next.js", "TypeScript", "Vue.js", "SAP UI5"]
   },
   {
     name: "Backend Geliştirme", 
@@ -35,15 +36,15 @@ export const SKILLS = [
     color: "from-emerald-500 to-teal-500",
     bgColor: "from-emerald-50 to-teal-50 dark:from-emerald-900/20 dark:to-teal-900/20",
     description: "Güvenli ve ölçeklenebilir sunucu tarafı uygulamalar ve API'ler",
-    technologies: ["Node.js", "Express", "Python", "PostgreSQL", "MongoDB"]
+    technologies: ["Node.js", "Express", "PostgreSQL", "MongoDB"]
   },
   {
-    name: "UI/UX Tasarımı",
+    name: "UI/UX Geliştirme",
     icon: Palette,
-    color: "from-pink-500 to-purple-500", 
+    color: "from-pink-500 to-purple-500",
     bgColor: "from-pink-50 to-purple-50 dark:from-pink-900/20 dark:to-purple-900/20",
-    description: "Kullanıcı odaklı tasarım ve seamless deneyim oluşturma",
-    technologies: ["Figma", "Tailwind CSS", "Framer Motion", "Adobe XD"]
+    description: "Modern arayüzler ve kullanıcı dostu deneyimler geliştirme",
+    technologies: ["Figma", "Tailwind CSS", "CSS Modules", "Styled Components"]
   },
   {
     name: "Mobil Geliştirme",
@@ -51,23 +52,23 @@ export const SKILLS = [
     color: "from-indigo-500 to-purple-500",
     bgColor: "from-indigo-50 to-purple-50 dark:from-indigo-900/20 dark:to-purple-900/20", 
     description: "Cross-platform mobil uygulamalar ve native performans",
-    technologies: ["React Native", "Flutter", "Expo", "Electron"]
+    technologies: ["React Native", "Expo"]
   },
   {
-    name: "Cloud & DevOps",
-    icon: Terminal,
+    name: "CI/CD",
+    icon: Repeat,
     color: "from-orange-500 to-red-500",
     bgColor: "from-orange-50 to-red-50 dark:from-orange-900/20 dark:to-red-900/20",
-    description: "Bulut altyapısı yönetimi ve otomatik deployment süreçleri",
-    technologies: ["AWS", "Docker", "Kubernetes", "GitHub Actions", "Vercel"]
+    description: "Sürekli entegrasyon ve dağıtım süreçleri ile yazılım geliştirme verimliliğini artırma",
+    technologies: ["Jenkins", "GitHub Actions", "Docker", "Expo EAS"]
   },
   {
-    name: "Web Performansı",
-    icon: Zap,
-    color: "from-yellow-500 to-amber-500",
-    bgColor: "from-yellow-50 to-amber-50 dark:from-yellow-900/20 dark:to-amber-900/20",
-    description: "Site hızı optimizasyonu ve kullanıcı deneyimini iyileştirme",
-    technologies: ["Lighthouse", "Web Vitals", "Bundle Analysis", "PWA"]
+    name: "Masaüstü Geliştirme",
+    icon: Monitor,
+    color: "from-yellow-500 to-orange-500",
+    bgColor: "from-yellow-50 to-orange-50 dark:from-yellow-900/20 dark:to-orange-900/20",
+    description: "Masaüstü uygulamaları geliştirme ve platformlar arası deneyimler oluşturma",
+    technologies: ["Electron", "Node.js", "TypeScript", "Cross-Platform"]
   }
 ];
 
