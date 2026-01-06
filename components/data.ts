@@ -36,7 +36,7 @@ export const SKILLS = [
     color: "from-emerald-500 to-teal-500",
     bgColor: "from-emerald-50 to-teal-50 dark:from-emerald-900/20 dark:to-teal-900/20",
     description: "Güvenli ve ölçeklenebilir sunucu tarafı uygulamalar ve API'ler",
-    technologies: ["Node.js", "Express", "PostgreSQL", "MongoDB"]
+    technologies: ["Node.js",".NET","Express", "PostgreSQL", "MongoDB"]
   },
   {
     name: "UI/UX Geliştirme",
@@ -73,36 +73,58 @@ export const SKILLS = [
 ];
 
 export const PROJECTS = [
+  // {
+  //   title: "Gerçek Zamanlı Konum Takibi",
+  //   description:
+  //     "Gerçek zamanlı Wi-Fi izleme, konum takibi ve etkileyici veri görselleştirmeleri sunan gelişmiş Electron masaüstü uygulaması.",
+  //   tech: ["Electron", "React", "Tailwind", "Node.js", "Chart.js"],
+  //   repo: "https://github.com/tarik-atasoy/location-tracker",
+  //   demo: "https://location.tarikatasoy.dev",
+  //   featured: true,
+  //   gradient: "from-purple-700 via-purple-500 to-purple-300",
+  //   category: "Desktop App",
+  // },
+  // {
+  //   title: "Smoothie Planlayıcı",
+  //   description:
+  //     "Besin analizi, kalori takibi ve kişisel önerilerle akıllı smoothie tarif oluşturucu.",
+  //   tech: ["React", "Redux Toolkit", "Tailwind", "Chart.js"],
+  //   repo: "https://github.com/tarik-atasoy/smoothie-planner",
+  //   demo: "https://smoothie.tarikatasoy.dev",
+  //   featured: true,
+  //   gradient: "from-emerald-500 via-teal-500 to-cyan-600",
+  //   category: "Web App",
+  // },
+  // {
+  //   title: "Banka Uygulama Prototipi",
+  //   description:
+  //     "Güvenli kimlik doğrulama, gerçek zamanlı işlemler ve mobil & web için duyarlı tasarıma sahip tam kapsamlı bir banka çözümü.",
+  //   tech: ["React", "React Native", "Node.js", "Tailwind", "JWT"],
+  //   repo: "https://github.com/tarik-atasoy/bank-prototype",
+  //   featured: false,
+  //   gradient: "from-blue-600 via-violet-600 to-purple-600",
+  //   category: "Full Stack",
+  // },
   {
-    title: "Gerçek Zamanlı Konum Takibi",
+    title: "Kripto Simülatörü",
     description:
-      "Gerçek zamanlı Wi-Fi izleme, konum takibi ve etkileyici veri görselleştirmeleri sunan gelişmiş Electron masaüstü uygulaması.",
-    tech: ["Electron", "React", "Tailwind", "Node.js", "Chart.js"],
-    repo: "https://github.com/tarik-atasoy/location-tracker",
-    demo: "https://location.tarikatasoy.dev",
+      "Gerçek zamanlı fiyat verileri, risk yönetimi ve detaylı performans analizi ile kaldıraçlı kripto işlemlerini simüle eden gelişmiş trading platformu.",
+    tech: ["React", "TypeScript", "Tailwind", "lightweight-charts","Node.js"],
+    repo: "https://github.com/tarikatasoy/trade-simulator",
+    demo: "https://trade.tarikatasoy.com",
     featured: true,
-    gradient: "from-purple-700 via-purple-500 to-purple-300",
-    category: "Desktop App",
+    gradient: "from-amber-500 via-orange-500 to-red-500",
+    category: "Full Stack",
   },
   {
-    title: "Smoothie Planlayıcı",
+    title: "Real-Time Chat Uygulaması",
     description:
-      "Besin analizi, kalori takibi ve kişisel önerilerle akıllı smoothie tarif oluşturucu.",
-    tech: ["React", "Redux Toolkit", "Tailwind", "Chart.js"],
-    repo: "https://github.com/tarik-atasoy/smoothie-planner",
-    demo: "https://smoothie.tarikatasoy.dev",
+      "WebSocket tabanlı anlık mesajlaşma, grup sohbetleri ve kullanıcı durumu takibi içeren modern chat platformu.",
+    tech: ["React", "Node.js", "Socket.io", "Tailwind"],
+    repo: "https://github.com/tarikatasoy/chat-ui",
+    demo: "https://chat.tarikatasoy.com",
     featured: true,
-    gradient: "from-emerald-500 via-teal-500 to-cyan-600",
-    category: "Web App",
-  },
-  {
-    title: "Banka Uygulama Prototipi",
-    description:
-      "Güvenli kimlik doğrulama, gerçek zamanlı işlemler ve mobil & web için duyarlı tasarıma sahip tam kapsamlı bir banka çözümü.",
-    tech: ["React", "React Native", "Node.js", "Tailwind", "JWT"],
-    repo: "https://github.com/tarik-atasoy/bank-prototype",
-    featured: false,
-    gradient: "from-blue-600 via-violet-600 to-purple-600",
+    gradient: "from-blue-500 via-indigo-500 to-purple-500",
     category: "Full Stack",
   },
 ];

@@ -52,18 +52,18 @@ export function Projects() {
             <div className="h-px bg-gradient-to-r from-yellow-500/50 to-transparent flex-1"></div>
           </div>
           
-           <div className="flex items-center justify-center gap-3">
+           {/* <div className="flex items-center justify-center gap-3">
                 <div className="w-3 h-3 bg-purple-400 rounded-full animate-pulse"></div>
                 <span className="text-2xl font-bold text-white">Çok Yakında</span>
                 <div className="w-3 h-3 bg-cyan-400 rounded-full animate-pulse delay-500"></div>
-              </div>
+              </div> */}
 
           {/* proje ekleyince burası açılacak */}
-          {/* <div className="grid gap-8 lg:grid-cols-2">
+          <div className="grid gap-8 lg:grid-cols-2">
             {featuredProjects.map((project, index) => (
               <ProjectCard key={project.title} project={project} index={index} />
             ))}
-          </div> */}
+          </div>
         </div>
 
 {/* proje ekleyince burası açılacak */}
